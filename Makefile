@@ -11,4 +11,4 @@ clean:
 	rm -f *.o
 
 test:
-	export/bin/$(BASENAME).nes
+	fceux export/bin/$(BASENAME).nes
