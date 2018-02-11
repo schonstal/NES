@@ -27,3 +27,5 @@ To clean:
 ## Credits
 
 * [nesdev](http://timcheeseman.com/nesdev/)
+* [nesdoug](https://nesdoug.com/)
+* [nesdev wiki](http://wiki.nesdev.com/w/index.php/Nesdev_Wiki)
