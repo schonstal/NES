@@ -20,14 +20,14 @@ void main(void) {
     // load palette
     PPU_ADDRESS = 0x3f;
     PPU_ADDRESS = 0x00;
-    for ( i = 0; i < sizeof(PALETTE); ++i ) {
+    for (i = 0; i < sizeof(PALETTE); ++i) {
         PPU_DATA = PALETTE[i];
     }
 
     // load text
     PPU_ADDRESS = 0x21;
     PPU_ADDRESS = 0xca;
-    for ( i = 0; i < sizeof(TEXT); ++i ) {
+    for (i = 0; i < sizeof(TEXT); ++i) {
         PPU_DATA = (uint8_t) TEXT[i];
     }
 
