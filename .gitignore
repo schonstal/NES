@@ -1,0 +1,6 @@
+.DS_Store
+/export/
+*.swp
+*.swo
+Thumbs.db
+*.o
